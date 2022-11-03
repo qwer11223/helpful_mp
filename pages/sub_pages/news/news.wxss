@@ -1,0 +1,29 @@
+/* pages/sub_pages/news/news.wxss */
+
+.container{
+  padding: 20rpx 40rpx;
+}
+
+.head{
+  margin-bottom: 50rpx;
+}
+
+.title{
+  font-size: 50rpx;
+  font-weight: bolder;
+}
+
+.time{
+  font-size: 25rpx;
+  color: rgb(146, 140, 140);
+}
+
+.content{
+  text-indent: 70rpx;
+}
+
+.p{
+  margin-bottom: 50rpx;
+  letter-spacing: 10rpx;
+  text-align: justify;
+}

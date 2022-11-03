@@ -1,0 +1,10 @@
+/* pages/sub_pages/none/none.wxss */
+
+page{
+  height: 90%;
+}
+
+.container{
+  justify-content: center;
+  align-items: center;
+}

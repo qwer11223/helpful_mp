@@ -1,0 +1,38 @@
+{
+  "pages": [
+    "pages/login/login",
+    "pages/home/home",
+    "pages/my/my",
+    "pages/sub_pages/news/news",
+    "pages/sub_pages/none/none"
+  ],
+  "tabBar": {
+    "color": "#000000",
+    "selectedColor": "#5555ff",
+    "borderStyle": "white",
+    "list": [{
+        "pagePath": "pages/home/home",
+        "text": "首页",
+        "iconPath": "./static/icon/home.png",
+        "selectedIconPath": "./static/icon/home-active.png"
+      },
+      {
+        "pagePath": "pages/my/my",
+        "text": "我的",
+        "iconPath": "./static/icon/my.png",
+        "selectedIconPath": "./static/icon/my-active.png"
+      }
+    ]
+  },
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "Weixin",
+    "navigationBarTextStyle": "black"
+  },
+  "usingComponents": {
+    "mp-icon": "weui-miniprogram/icon/icon"
+  },
+  "style": "v2",
+  "sitemapLocation": "sitemap.json"
+}

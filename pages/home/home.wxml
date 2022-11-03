@@ -1,0 +1,22 @@
+<!--pages/home/home.wxml-->
+<view class="container">
+  <!-- <mp-cells ext-class="my-cells" title="功能列表" aria-role="menuitem" aria-label="所有分类">
+    <mp-cell ext-class="my-cell" wx:for="{{all_category}}" wx:key="id" hover="{{true}}" data-link="{{item.link}}" bindtap="navigateTo">
+      <view>{{item.title}}</view>
+      <view slot="footer">
+        <mp-icon type="outline" icon="{{item.icon}}" color="black" size="{{25}}"></mp-icon>
+      </view>
+    </mp-cell>
+  </mp-cells> -->
+
+  <view class="cells">
+    <view class="title">功能列表</view>
+    <ul class="cell">
+      <li class="cell-item" wx:for="{{all_category}}" wx:key="id" data-link="{{item.link}}" bindtap="navigateTo">
+        <view>{{item.title}}</view>
+        <mp-icon type="outline" icon="{{item.icon}}" color="black" size="{{25}}"></mp-icon>
+      </li>
+    </ul>
+  </view>
+
+</view>

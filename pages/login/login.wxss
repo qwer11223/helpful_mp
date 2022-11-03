@@ -1,0 +1,24 @@
+/* pages/login/login.wxss */
+page {
+  height: 90%;
+}
+
+.container {
+  align-items: center;
+  justify-content: center;
+}
+
+.box {
+  margin-bottom: 400rpx;
+  text-align: center;
+}
+
+.box .title {
+  font-size: 70rpx;
+  font-weight: bolder;
+  letter-spacing: 20rpx;
+}
+
+.box .desc {
+  letter-spacing: 10rpx;
+}

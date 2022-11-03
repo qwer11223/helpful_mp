@@ -1,0 +1,30 @@
+/* pages/home/home.wxss */
+
+.my-cell {
+  margin: 14rpx 0;
+  font-size: 35rpx;
+}
+
+.title {
+  margin-top: 16px;
+  margin-bottom: 3px;
+  padding: 0 16px 5px 16px;
+  color: var(--weui-FG-1);
+  font-size: 31rpx;
+  line-height: 1.4;
+  border-bottom: 1px solid rgb(241, 241, 241);
+}
+
+.cell {
+  list-style: none;
+}
+
+.cell-item {
+  display: flex;
+  justify-content: space-between;
+  margin: 14rpx 0;
+  padding: 16px;
+  font-size: 35rpx;
+  color: var(--weui-FG-0);
+  border-bottom: 1px solid rgb(241, 241, 241);
+}

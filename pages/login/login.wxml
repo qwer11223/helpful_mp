@@ -1,0 +1,8 @@
+<!--pages/login/login.wxml-->
+<view class="container">
+  <view class="box">
+    <view class="title">爱帮盲</view>
+    <view class="desc">"e有eye"</view>
+  </view>
+  <button type="primary" bindtap="login">登录</button>
+</view>

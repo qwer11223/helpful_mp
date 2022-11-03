@@ -1,0 +1,8 @@
+<!--pages/my/my.wxml-->
+<view class="container">
+  <view class="box">
+    <image src="{{userInfo.avatarUrl}}" mode="" />
+    <view class="name">用户昵称：{{userInfo.nickName}}</view>
+  </view>
+  <button type="primary" bindtap="logout">退出登录</button>
+</view>
